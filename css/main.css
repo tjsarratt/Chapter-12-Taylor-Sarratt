@@ -1,0 +1,33 @@
+html { font-family: Arial, Helvetica, sans-serif;}
+
+
+body {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+figure {background-color: whitesmoke;
+    border: 1px solid black;
+    border-collapse: collapse;
+padding: 50px;}
+
+table, th, td {
+    padding: 15px;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  #AFC, #Head {
+     
+      padding: 10px;
+    background-color: #FF5050;
+color: white;
+text-shadow: 2px 2px 8px black;}
+
+.Team, th, figcaption {font-weight: bolder;}
+
+#AFC, figcaption {font-size: 20px;
+text-align: center;}
